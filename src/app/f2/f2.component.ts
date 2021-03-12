@@ -56,7 +56,7 @@ const parent:Hello = {
 console.log("Parents Data:");
 console.log(`${parent.sayHello()} ${parent.firstname} ${parent.lastname}`)
 
-const x = 21;
+const x = 22;
 const y = 25;
 let s = x + y;
 let m = x - y;
