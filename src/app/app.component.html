@@ -1,0 +1,25 @@
+
+    <label for="fname">First value:</label><br>
+    <input type="password" id="fname" name="fname" readonly value="10"><br>
+    <label for="lname">Second value:</label><br>
+    <input type="number" id="lname" name="lname"[(ngModel)]="secondValue"><br>
+    <input type="button" (click)="onclick()" value="Calculate"/><br>
+    <label for="sum">Sum</label><br>
+    <input type="number" [value]="sum" readonly /><br>
+    <label for="sub">Sub</label><br>
+    <input type="number" id="sub" [value]="sub" readonly /><br>
+    <label for="mul">Mul</label><br>
+    <input type="number" [value]="mul" readonly /><br>
+    <label for="div">Div</label><br>
+    <input type="number" [value]="div" readonly /><br>
+
+
+
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname" [(ngModel)]="firstName">
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname" [(ngModel)]="secondName">
+    <input type="button" (click)="print()" value="Message"/><br>
+    <div>{{ message }}</div>
+
+  <app-new></app-new>

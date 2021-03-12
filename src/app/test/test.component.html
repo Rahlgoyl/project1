@@ -1,0 +1,8 @@
+<p>test works!</p>
+<label for="fname">First name:</label>
+<input type="text" id="fname" name="fname"[(ngModel)]="firstName">
+<label for="lname">Last name:</label>
+<input type="text" id="lname" name="lname"[(ngModel)]="secondName">
+<input type="button" (click)="print()" value="Message"/><br>
+<div>{{ message }}</div>
+
